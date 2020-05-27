@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif
+}
+
+body {
+  background: #F2F2F2;
+}
+
+body, ul, li {
+  list-style: none;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 64px;
+  background: #4A90E2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.icone-menu {
+  width: 100px;
+}
+
+.posts {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.post {
+  display: block;
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+  border-radius: 4px;
+}
+
+.post__profile {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  line-height: 13px;
+  color: #9A9A9A;
+  margin-bottom: 12px;
+}
+
+.post__profile span:first-child {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #4A4A4A;
+}
+
+.post__profile img {
+  max-width: 32px;
+  border-radius: 16px;
+}
+
+.profile__details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.post__content {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+.comment__profile {
+  display: flex;
+  font-size: 13px;
+  line-height: 20px;
+  color: #3E3E3E;
+}
+
+.comment img {
+  max-width: 28px;
+  border-radius: 16px;
+}
+
+.comment__details {
+  margin-left: 20px;
+  padding: 15px;
+  background: #EEEEEE;
+  white-space: pre-wrap;
+  border-radius: 20px;
+}
+
+.comment__details span {
+  margin-right: 5px;
+  font-weight: bold;
+  color: #3E3E3E;
+}
+
+.whitespace {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #EEEEEE;
+}
